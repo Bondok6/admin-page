@@ -51,6 +51,28 @@ header {
 	display: flex;
 	justify-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+	.graph img {
+		width: 400px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.graph img {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.graph img {
+		width: 250px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.graph img {
+		width: 150px;
+	}
+}
+
 /* End left side */
 
 /* Start dash board */
