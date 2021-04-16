@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <header>
+    </header>
+
+    <!-- start left side  -->
+    <div class="left_side">
+      <img src="design/ground-img.png" alt="" class="ground__img">
+      <img src="design/add-img.png" alt="" class="add__img">
+      <img src="design/graph-img.png" alt="" class="graph__img">
+    </div>
+    <!-- end letf side-->
+
+    <!-- Start Dash-Board -->
+    <section class="dash_section">
+      <h1 class="dash_title">DashBoard</h1>
+      <div class="dash">
+        <div class="dash__trainer">
+          <h2>Number Of Trainers <span>0000</span></h2>
+          <p>2 Apr, 2020 - 10 Apr, 2020 </p>
+          <div class="graph">
+            <img src="design/graph-1.svg" alt="trainer-dash">
+          </div>
+        </div>
+        <div class="dash__user">
+          <h2>Number Of Users <span>4430</span></h2>
+          <p>2 Apr, 2020 - 10 Apr, 2020 </p>
+          <div class="graph">
+            <img src="design/graph-2.svg" alt="trainer-dash">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Dash-Board -->
+    <!-- Start add trainer -->
+    <section class="add_trainer hidden">
+      <h1 class="add_title">Add trainer</h1>
+      <div class="information">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address or Mobile Number" />
+        <input type="password" placeholder="Password" />
+        <input type="text" placeholder="Address" />
+
+        <div class="dob_info">
+          <label for="dob"> Date of Birth </label>
+          <select name="dob">
+            <option value="1">1</option>
+          </select>
+          <select name="dob">
+            <option value="jan">jan</option>
+          </select>
+          <select name="dob">
+            <option value="2021">2021</option>
+          </select>
+        </div>
+        <div class="gender_info">
+          <div> Gender </div>
+          <label class="contain">Male
+            <input type="radio" checked="checked" name="radio" class="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="contain">Female
+            <input type="radio" name="radio" class="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7290571.756405703!2d35.37268614806029!3d26.84473904954413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2z2YXYtdix!5e0!3m2!1sar!2seg!4v1618573824235!5m2!1sar!2seg"
+          width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        <input type="text" placeholder="Gym Name" />
+
+        <button class="addBtn">Add Trainer</button>
+      </div>
+
+    </section>
+
+    <!-- End add trainer -->
+    <script src="script.js"></script>
+  </body>
+
+</html>
