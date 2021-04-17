@@ -36,12 +36,34 @@ body {
 	left: 0px;
 	cursor: pointer;
 }
+.add__img:hover {
+	animation: move 1s infinite ease-in-out;
+}
 .graph__img {
 	width: 50px;
 	position: fixed;
 	top: 55%;
 	left: 8px;
 	cursor: pointer;
+}
+.graph__img:hover {
+	animation: move2 1s infinite;
+}
+@keyframes move {
+	from {
+		top: 43%;
+	}
+	to {
+		top: 42%;
+	}
+}
+@keyframes move2 {
+	from {
+		top: 55%;
+	}
+	to {
+		top: 54%;
+	}
 }
 .hidden {
 	display: none;
@@ -81,6 +103,7 @@ body {
 	padding-top: 130px;
 	font-family: 'Montserrat', sans-serif;
 }
+
 .dash_title,
 .add_title {
 	color: #d9a404;
