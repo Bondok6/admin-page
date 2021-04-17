@@ -5,7 +5,7 @@ body {
 	background: linear-gradient(#242323 25%, #ffdf7e 70%) no-repeat;
 	min-height: 100vh;
 }
-header {
+/* header {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -16,7 +16,7 @@ header {
 	background-size: 143vw;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+} */
 
 /*_____________________________________________________________________ */
 
